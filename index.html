@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avalie + AI</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #0a1931; color: #fff; padding: 20px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 15px; }
+    header img { height: 60px; vertical-align: middle; }
+    header h1 { font-size: 28px; margin: 0; }
+    .hero { padding: 40px 20px; text-align: center; background: linear-gradient(to bottom right, #e5efff, #ffffff); animation: fadeIn 1s ease-in; }
+    .hero h2 { font-size: 32px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; }
+    .cta { background: #1456d2; color: white; padding: 20px; text-align: center; }
+    .cta a { background: #00dfc0; color: #000; padding: 12px 24px; border-radius: 30px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+    .cta a:hover { background: #00b3a1; }
+    .services, .about, .contact { padding: 40px 20px; text-align: center; }
+    .services h3, .about h3, .contact h3 { font-size: 24px; margin-bottom: 20px; }
+    footer { background: #0a1931; color: #fff; text-align: center; padding: 20px; font-size: 14px; }
+
+    /* Botão flutuante WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 100;
+      text-decoration: none;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Avalie + AI Logo">
+    <h1>Avalie + AI</h1>
+  </header>
+  <section class="hero">
+    <h2>Automação com Inteligência</h2>
+    <p>Transforme o atendimento da sua empresa com agentes de IA prontos para vender, responder e agendar 24h por dia.</p>
+  </section>
+  <section class="cta">
+    <p>Conheça nosso agente inteligente para WhatsApp!</p>
+    <a href="https://wa.me/5579998753202" target="_blank">Quero um teste grátis</a>
+  </section>
+  <section class="services">
+    <h3>O que oferecemos:</h3>
+    <ul>
+      <li>🤖 Agente de IA para WhatsApp com GPT-4</li>
+      <li>📊 Conexão com planilhas, e-mail e sistema interno</li>
+      <li>💬 Atendimento automatizado e inteligente 24h</li>
+    </ul>
+  </section>
+  <section class="about">
+    <h3>Por que a Avalie + AI?</h3>
+    <p>Economize tempo, aumente suas vendas e tenha um time virtual trabalhando por você todos os dias.</p>
+  </section>
+  <section class="contact">
+    <h3>Agende sua demonstração</h3>
+    <p>Fale com nosso consultor pelo WhatsApp ou envie um e-mail: <br><strong>freirecloud@gmail.com</strong></p>
+  </section>
+  <footer>
+    &copy; 2025 Avalie + AI | Desenvolvido com tecnologia CrewAI, LangChain, N8N e LlamaIndex.
+  </footer>
+
+  <!-- Botão WhatsApp flutuante -->
+  <a href="https://wa.me/5579998753202" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
